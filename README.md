@@ -1,5 +1,7 @@
 # EFT-Fitter
 
+Hello Tom :) 
+
 ## Run the fit(s)
 
 The main tool is the `runFit.py` script. This will run a fit of the pois, followed by a profiled and a fixed scan of each poi in the range given. Note that the default values in the fixed scans will be fixed to those given in the `params` file unless you add the option `--setParamsToNominal` in which case they will instead be fixed to the global maximum likelihood estimates. 
